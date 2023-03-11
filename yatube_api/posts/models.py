@@ -34,6 +34,11 @@ class Post(models.Model):
         help_text='Выберите группу из предложенных'
     )
 
+    class Meta:
+        ordering = ('pub_date',)
+        verbose_name = 'пост'
+        verbose_name_plural = 'посты'
+
     def __str__(self):
         return self.text
 
