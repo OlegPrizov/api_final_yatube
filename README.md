@@ -95,3 +95,7 @@ http://127.0.0.1:8000/api/v1/posts/
 ]
 ```
 и так далее
+
+### Автор 
+[Олег Призов](https://github.com/OlegPrizov) 
+dockerhub_username: olegprizov
